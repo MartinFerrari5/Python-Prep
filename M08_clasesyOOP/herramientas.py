@@ -1,6 +1,7 @@
 class Herramientas:
     def __init__(self, lista_numeros):
         self.lista = lista_numeros
+        print(self.lista)
 
     def verifica_primo(self):
         '''
