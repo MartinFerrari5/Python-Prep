@@ -11,6 +11,7 @@ def Factorial(numero):
         Factorial(4) debe retornar 24
         Factorial(-2) debe retornar nulo
     '''
+    print(numero)
     #Tu código aca:
     if type(numero) != int:
         return None
@@ -74,3 +75,6 @@ def ClaseAnimal(especie, color):
             return self.edad
         
     return Animal(especie,color)
+
+print(Factorial(4))
+print('jolas')

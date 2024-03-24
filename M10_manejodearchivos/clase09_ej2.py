@@ -1,5 +1,6 @@
 import sys
 # Comprobación de seguridad, ejecutar sólo si se recibe 3 argumentos
+print(len(sys.argv))
 if len(sys.argv) == 2:
     import datetime
     import os

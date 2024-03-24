@@ -1,2 +1,2 @@
-def suma(a,b):
-    return print(a+b)
+def saludar():
+    return print("hola")
